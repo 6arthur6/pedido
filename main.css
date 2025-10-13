@@ -173,56 +173,6 @@ header {
   box-shadow: 0 8px 24px rgba(214, 51, 132, 0.2);
 }
 
-/* ===== CARTAS DE AMOR ===== */
-.cartas {
-  padding: 3rem 2rem;
-  background: linear-gradient(135deg, #fff0f6, #ffe6f2);
-  text-align: center;
-  max-width: 1100px;
-  margin: 2rem auto;
-  border-radius: 14px;
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
-}
-
-.cartas h1 {
-  font-size: 2.2rem;
-  color: #d63384;
-  margin-bottom: 2rem;
-  font-weight: 700;
-}
-
-.cartas-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1.5rem;
-  padding: 0 1rem;
-}
-
-.carta-card {
-  background: #fff;
-  padding: 1.5rem;
-  border-radius: 10px;
-  box-shadow: 0 4px 12px rgba(214, 51, 132, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.carta-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 20px rgba(214, 51, 132, 0.2);
-}
-
-.carta-card .icon {
-  font-size: 1.5rem;
-  margin-bottom: 0.5rem;
-  color: #d63384;
-}
-
-.carta-card p {
-  color: #444;
-  font-size: 1rem;
-  line-height: 1.5;
-}
-
 /* ===== BOTÃO ===== */
 .pedido-btn {
   background: linear-gradient(135deg, #ff5fa2, #d63384);
@@ -330,13 +280,5 @@ footer {
 
   .titulo-topo h1 {
     font-size: 1.4rem;
-  }
-
-  .cartas h1 {
-    font-size: 1.8rem;
-  }
-
-  .cartas-grid {
-    grid-template-columns: 1fr;
   }
 }
